@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": false,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nestjs/common": ["node_modules/@nestjs/common"],
+      "@nestjs/core": ["node_modules/@nestjs/core"],
+      "@nestjs/platform-express": ["node_modules/@nestjs/platform-express"],
+      "@nestjs/typeorm": ["node_modules/@nestjs/typeorm"],
+      "@nestjs/graphql": ["node_modules/@nestjs/graphql"],
+      "typeorm": ["node_modules/typeorm"],
+      "graphql": ["node_modules/graphql"]
+    },
+    "jsx": "react"
+  }
+}
